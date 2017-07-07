@@ -11,20 +11,11 @@ This application tracks animals at the local zoo.
 ### Specs
 | Behavior | Example Input | Example Output |
 | :-------------     | :------------- | :------------- |
-| *** Users (i.e., zoo staff) should be able to add newly-admitted animals to the app** |  | Baby Elephant |
-| *** Log a newly-admitted animal by submitting a form with: animal species, name, age, diet, zoo location, number of needed caretakers, sex, one like and one dislike *** | class  | Species: "Northwest Black Tailed Deer"
-Name: "Tinkerbell"
-Age: 8
-Diet: "Herbivore"
-Location: "Northern Trail"
-Caretakers: 2
-Sex: "Female"
-Likes: "Delicate roots and leaves"
-Dislikes: "Loud Noises" |
-| *** View a list of animals I have logged *** |  |  |
-| *** Options to view all animals, only young animals (less than 2 years of age), or only mature animals (2 years of age and older).
- |
-| *** click an animal to edit its name, age or caretakers *** | La ti Da | La ti Da |
+| Users (i.e., zoo staff) should be able to add newly-admitted animals to the app |  | Baby Elephant |
+| Log a newly-admitted animal by submitting a form with: animal species, name, age, diet, zoo location, number of needed caretakers, sex, one like and one dislike |  |  |
+| View a list of animals I have logged |  |  |
+| Options to view all animals, only young animals (less than 2 years of age), or only mature animals (2 years of age and older). | La ti Da | La ti Da |
+| click an animal to edit its name, age or caretakers | La ti Da | La ti Da |
 
 
 ## Setup/Installation Requirements
