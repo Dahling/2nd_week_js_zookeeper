@@ -1,0 +1,20 @@
+{
+  "name": "zookeeper",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Jenna Cooper <jchristinec@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
