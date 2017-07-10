@@ -10,7 +10,7 @@ import { Animal } from './animal.model';
   <select (change)="onChange($event.target.value)">
         <option value="allAnimals" selected="selected">All Animals</option>
         <option value="babyAnimals">Baby Animals (i.e., younger than 2)</option>
-        <option value="grownAnimals">Grown Animals (i.e., 2 and above)</option>     
+        <option value="grownAnimals">Grown Animals (i.e., 2 and above)</option>
   </select>
 
 
@@ -18,6 +18,8 @@ import { Animal } from './animal.model';
       <li (click)="isAge(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
       <span class="animal">
           <span class="labels">Species:</span> <span class="responses">{{currentAnimal.species}}</span>
+          <br>
+          <span class="labels">Name:</span> <span class="responses">{{currentAnimal.name}}</span>
           <br>
           <span class="labels">Age:</span> <span class="responses">{{currentAnimal.age}}</span>
           <br>

@@ -13,6 +13,11 @@ import { Animal } from './animal.model';
       </div>
 
       <div>
+       <label>Name:</label>
+       <input #newName>
+      </div>
+
+      <div>
         <label>Age:</label>
         <input type="number" #newAge>
       </div>
@@ -49,7 +54,7 @@ import { Animal } from './animal.model';
       <br>
       <br>
       <br>
-      <button id='new-animal-button' (click)="submitForm(newSpecies.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newSpecies.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add</button>
+      <button id='new-animal-button' (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newSpecies.value=''; newName.value=''; newAge.value=''; newDiet.value=''; newLocation.value=''; newCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value='';">Add</button>
 
     </div>
   `
@@ -58,8 +63,8 @@ import { Animal } from './animal.model';
 export class NewAnimalComponent {
   @Output() newAnimalSender = new EventEmitter();
 
-  submitForm(species: string, age: number, diet: string, location: string, caretakers: number, sex: string, likes: string, dislikes: string) {
-    var newAnimalToAdd: Animal = new Animal(species, age, diet, location, caretakers, sex, likes, dislikes);
+  submitForm(species: string, name: string, age: number, diet: string, location: string, caretakers: number, sex: string, likes: string, dislikes: string) {
+    var newAnimalToAdd: Animal = new Animal(species, name, age, diet, location, caretakers, sex, likes, dislikes);
     this.newAnimalSender.emit(newAnimalToAdd);
   }
 }

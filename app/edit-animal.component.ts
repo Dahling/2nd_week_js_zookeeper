@@ -12,6 +12,9 @@ import { Animal } from './animal.model';
       <label>Species:</label>
       <input [(ngModel)]="childSelectedAnimal.species">
       <br>
+      <label>Name:</label>
+      <input [(ngModel)]="childSelectedAnimal.name">
+      <br>
       <label>Age:</label>
       <input [(ngModel)]="childSelectedAnimal.age">
       <br>

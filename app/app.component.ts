@@ -38,9 +38,9 @@ export class AppComponent {
   selectedAnimal = null;
 
   masterAnimalList: Animal [] = [
-     new Animal("Pig", 4, "Carnivore", "Portland", 5, "Female", "Sunshine", "Rain"),
-     new Animal("Elephant", 1, "Herbivore", "San Francisco", 25, "Male", "Shopping", "Fog"),
-     new Animal("Panda", 2, "Herbivore", "Japan", 2, "Male", "Gossip", "Twigs"),
+     new Animal("Pig", "Cutie", 4, "Gummy Bears", "Portland", 5, "Female", "Sunshine", "Rain"),
+     new Animal("Elephant", "Pinky", 1, "Tortilla Chips", "San Francisco", 25, "Male", "Kids", "Clouds"),
+     new Animal("Panda", "Hunk", 2, "Ice Cream", "Los Angeles", 2, "Male", "Women", "Snobs"),
    ];
 
   editAnimal(clickedAnimal) {
