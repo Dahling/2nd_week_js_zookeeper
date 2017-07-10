@@ -2,14 +2,15 @@ li, a {
   text-decoration: none;
   list-style: none;
   /*padding-left: 2%;*/
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Droid Serif', serif;
   color: white;
   text-transform: uppercase;
   /*border: 20px solid limegreen;*/
-  flex: 1;
+  flex: 2;
   border: 10px solid white;
-  padding: 15px;
+  padding: 1%;
+  flex-grow: 2;
 }
 
 @media (max-width: 750px) {
@@ -44,7 +45,8 @@ ul {
   font-size: 15px;
   padding-left: 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1199px) {
@@ -212,7 +214,7 @@ h3 {
 .labels {
   color: #FF206E;
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 23px;
   /*font-family: 'Special Elite', cursive;*/
 }
 
@@ -224,7 +226,7 @@ h3 {
 
 .responses {
   text-align: right;
-  font-size: 25px;
+  font-size: 19px;
   text-transform: uppercase;
   color: #9067C6;
   /*text-shadow: 1px 2px 2px black;*/
