@@ -59,17 +59,23 @@ ul {
 
 #header {
   text-align: center;
-  font-size: 80px;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
   letter-spacing: 10px;
   text-transform: uppercase;
   color: #FF206E;
-  text-shadow: 1px 2px 3px #9067C6;
+  text-shadow: 5px 5px 10px #9067C6;
   font-family: 'Special Elite', cursive;
+  background-image: url('resources/images/giraffe2.png');
+  background-color: transparent;
+  background-size: cover;
+}
+
+#header h1 {
+  font-size: 80px;
 }
 
 @media (max-width: 992px) {
-  #header {
+  #header h1 {
     font-size: 50px;
     }
 }
@@ -132,7 +138,7 @@ input[type="radio"], input[type="checkbox"] {
 
 @media (max-width: 992px) {
   #date {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     }
   }

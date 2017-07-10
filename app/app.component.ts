@@ -6,8 +6,11 @@ import { Animal } from './animal.model';
   selector: 'app-root',
   template: `
   <div class="container">
-    <h1 id="header">Zookeeper</h1>
-    <h2 id="date">{{month}}.{{day}}.{{year}}</h2>
+    <div id="header">
+      <img id="giraffe" src='/resources/images/giraffe2.png'>
+      <h1>Zookeeper</h1>
+      <h2 id="date">{{month}}.{{day}}.{{year}}</h2>
+  </div>
     <h3>{{currentAnimals}}</h3>
     <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
     <hr>
