@@ -12,7 +12,7 @@ li, a {
   padding: 15px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   li {
 
     }
@@ -47,7 +47,7 @@ ul {
   justify-content: space-between;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1199px) {
   ul {
     display: flex;
     flex-direction: column;
@@ -74,7 +74,7 @@ ul {
   font-size: 80px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   #header h1 {
     font-size: 50px;
     }
@@ -91,7 +91,13 @@ label {
   padding: 1%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
+  label {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 630px) {
   label {
     font-size: 15px;
   }
@@ -109,7 +115,7 @@ input {
   padding-top: 1%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   input {
     font-size: 15px;
     border-bottom: 2px solid #41EAD4;
@@ -136,7 +142,7 @@ input[type="radio"], input[type="checkbox"] {
   letter-spacing: 5px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   #date {
     font-size: 15px;
     text-align: center;
@@ -153,7 +159,7 @@ h3 {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   h3 {
     font-size: 28px;
     text-align: center;
@@ -186,8 +192,13 @@ h3 {
 }
 
 .edit-animal button {
-  margin-top: -50px;
+  margin-top: -40px;
+  margin-right: 1%;
   padding: 1%;
+  float: right;
+  background-color: #9067C6;
+  color: white;
+  font-family: 'Special Elite', cursive;
 }
 
 .edit-animal h3 {
@@ -205,7 +216,7 @@ h3 {
   /*font-family: 'Special Elite', cursive;*/
 }
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   .labels {
     font-size: 23px;
     }
@@ -214,13 +225,13 @@ h3 {
 .responses {
   text-align: right;
   font-size: 25px;
-  text-transform: none;
+  text-transform: uppercase;
   color: #9067C6;
   /*text-shadow: 1px 2px 2px black;*/
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   .responses {
     font-size: 20px;
     }
@@ -240,7 +251,7 @@ select {
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 750px) {
   select {
     width: 100%;
     font-size: 20px;
