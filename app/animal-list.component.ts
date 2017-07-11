@@ -15,7 +15,7 @@ import { Animal } from './animal.model';
 
 
     <ul>
-      <li (click)="isAge(currentAnimal)" *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
+      <li *ngFor="let currentAnimal of childAnimalList | age:filterByAge">
       <span class="animal">
           <span class="labels">Species:</span> <span class="responses">{{currentAnimal.species}}</span>
           <br>
